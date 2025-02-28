@@ -1,0 +1,39 @@
+
+#ifndef	STM32_SPI_H
+#define	STM32_SPI_H
+
+#include"stm32f446.h"
+
+typedef struct
+{
+	volatile uint32_t SPI_Device_Mode
+	volatile uint32_t SPI_Bus_Config;
+	volatile uint32_t SPI_DFF;
+	volatile uint32_t SPI_CPHA;
+	volatile uint32_t SPI_CPOL;
+	volatile uint32_t SPI_SSM;
+	volatile uint32_t SPI_Speed;
+} SPI_Config_t;
+
+
+typedef struct
+{
+
+} SPI_Handle_t;
+
+
+
+
+
+
+
+
+
+
+#define Enable_CLK_SPI1					((RCC->RCC_APB2ENR|=1<<12))
+#define Enable_CLK_SPI2					((RCC->RCC_APB1ENR|=1<<14))
+#define Enable_CLK_SPI3					((RCC->RCC_APB1ENR|=1<<15))
+#define Enable_CLK_SPI4					((RCC->RCC_APB2ENR|=1<<13))
+
+
+#endif

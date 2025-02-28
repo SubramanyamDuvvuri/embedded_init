@@ -1,0 +1,11 @@
+../drivers/src/stm32_gpio_driver.c:7:6:GPIO_Clock_Enable	10
+../drivers/src/stm32_gpio_driver.c:135:9:SysConfig_Get_Port	8
+../drivers/src/stm32_gpio_driver.c:45:6:GPIO_Init	6
+../drivers/src/stm32_gpio_driver.c:167:6:GPIO_DeInit	1
+../drivers/src/stm32_gpio_driver.c:171:9:GPIO_Read_From_Pin	1
+../drivers/src/stm32_gpio_driver.c:178:10:GPIO_Read_From_Port	1
+../drivers/src/stm32_gpio_driver.c:185:6:GPIO_Write_to_Pin	2
+../drivers/src/stm32_gpio_driver.c:193:6:GPIO_Write_to_Port	1
+../drivers/src/stm32_gpio_driver.c:197:6:GPIO_Toggle	1
+../drivers/src/stm32_gpio_driver.c:203:6:GPIO_IRQConfig	1
+../drivers/src/stm32_gpio_driver.c:212:6:GPIO_IRQHandling	1

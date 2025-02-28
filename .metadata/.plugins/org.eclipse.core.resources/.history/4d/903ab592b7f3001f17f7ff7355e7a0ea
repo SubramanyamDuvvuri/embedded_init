@@ -1,0 +1,26 @@
+#include<stm32_spi_driver.h>
+
+
+
+void SPI_Clock_Enable(SPI_RegDef_t *pSPIx, uint8_t EnDi)
+{
+
+	if(EnDi)
+	{
+		if (pSPIx == SPI_)
+	}
+
+
+
+}
+void SPI_Init(SPI_Handle_t * pGPIO_Handle)
+{
+
+}
+void GPIO_DeInit(SPI_RegDef_t *pSPIx)
+
+
+
+
+
+

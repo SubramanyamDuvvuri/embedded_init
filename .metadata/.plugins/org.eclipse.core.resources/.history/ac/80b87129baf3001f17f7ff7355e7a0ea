@@ -1,0 +1,52 @@
+#include<stm32_spi_driver.h>
+
+
+
+void SPI_Clock_Enable(SPI_RegDef_t *pSPIx, uint8_t EnDi)
+{
+
+	if(EnDi)
+	{
+		if (pSPIx == SPI1)
+		{
+			Enable_CLK_SPI1;
+		}
+		else if  (pSPIx == SPI2)
+		{
+			Enable_CLK_SPI2;
+		}
+		else if  (pSPIx == SPI3)
+		{
+			Enable_CLK_SPI3;
+		}
+		else if (pSPIx == SPI4)
+		{
+			Enable_CLK_SPI4;
+		}
+	}
+	else
+	{
+
+	}
+
+
+
+}
+void SPI_Init(SPI_Handle_t * pGPIO_Handle)
+{
+
+
+
+
+
+}
+void SPI_DeInit(SPI_RegDef_t *pSPIx)
+{
+
+}
+
+
+
+
+
+
